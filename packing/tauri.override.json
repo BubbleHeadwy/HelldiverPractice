@@ -1,0 +1,19 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "frontendDist": "../packing/.artifacts/web"
+  },
+  "bundle": {
+    "icon": [
+      "../packing/.artifacts/generated-icons/icon.ico"
+    ],
+    "useLocalToolsDir": true,
+    "targets": "nsis",
+    "windows": {
+      "nsis": {
+        "installerIcon": "../packing/.artifacts/generated-icons/icon.ico",
+        "uninstallerIcon": "../packing/.artifacts/generated-icons/icon.ico"
+      }
+    }
+  }
+}

@@ -1,0 +1,956 @@
+[
+  {
+    "id": "orbital-strikes-orbital-120mm-he-barrage",
+    "nameZh": "轨道 120MM 高爆弹火力网",
+    "categoryZh": "轨道攻击",
+    "command": "rrdlrd",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-120mm-he-barrage.svg",
+    "nameEn": "Orbital 120mm HE Barrage",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-380mm-he-barrage",
+    "nameZh": "轨道 380MM 高爆弹火力网",
+    "categoryZh": "轨道攻击",
+    "command": "rduuldd",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-380mm-he-barrage.svg",
+    "nameEn": "Orbital 380mm HE Barrage",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-airburst-strike",
+    "nameZh": "轨道空爆攻击",
+    "categoryZh": "轨道攻击",
+    "command": "rrr",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-airburst-strike.svg",
+    "nameEn": "Orbital Airburst Strike",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-ems-strike",
+    "nameZh": "轨道电磁冲击波攻击",
+    "categoryZh": "轨道攻击",
+    "command": "rrld",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-ems-strike.svg",
+    "nameEn": "Orbital EMS Strike",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-gas-strike",
+    "nameZh": "轨道毒气攻击",
+    "categoryZh": "轨道攻击",
+    "command": "rrdr",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-gas-strike.svg",
+    "nameEn": "Orbital Gas Strike",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-gatling-barrage",
+    "nameZh": "轨道加特林火力网",
+    "categoryZh": "轨道攻击",
+    "command": "rdluu",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-gatling-barrage.svg",
+    "nameEn": "Orbital Gatling Barrage",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-laser",
+    "nameZh": "轨道激光炮",
+    "categoryZh": "轨道攻击",
+    "command": "rdurd",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-laser.svg",
+    "nameEn": "Orbital Laser",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-napalm-barrage",
+    "nameZh": "轨道凝固汽油弹火力网",
+    "categoryZh": "轨道攻击",
+    "command": "rrdlru",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-napalm-barrage.svg",
+    "nameEn": "Orbital Napalm Barrage",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-precision-strike",
+    "nameZh": "轨道精准攻击",
+    "categoryZh": "轨道攻击",
+    "command": "rru",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-precision-strike.svg",
+    "nameEn": "Orbital Precision Strike",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-railcannon-strike",
+    "nameZh": "轨道炮攻击",
+    "categoryZh": "轨道攻击",
+    "command": "ruddr",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-railcannon-strike.svg",
+    "nameEn": "Orbital Railcannon Strike",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-smoke-strike",
+    "nameZh": "轨道烟雾攻击",
+    "categoryZh": "轨道攻击",
+    "command": "rrdu",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-smoke-strike.svg",
+    "nameEn": "Orbital Smoke Strike",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "orbital-strikes-orbital-walking-barrage",
+    "nameZh": "轨道游走火力网",
+    "categoryZh": "轨道攻击",
+    "command": "rdrdrd",
+    "iconPath": "/assets/icons/orbital-strikes-orbital-walking-barrage.svg",
+    "nameEn": "Orbital Walking Barrage",
+    "categoryEn": "Orbital Strikes"
+  },
+  {
+    "id": "eagle-strikes-eagle-110mm-rocket-pods",
+    "nameZh": "飞鹰 110MM 火箭巢",
+    "categoryZh": "飞鹰攻击",
+    "command": "urul",
+    "iconPath": "/assets/icons/eagle-strikes-eagle-110mm-rocket-pods.svg",
+    "nameEn": "Eagle 110mm Rocket Pods",
+    "categoryEn": "Eagle Strikes"
+  },
+  {
+    "id": "eagle-strikes-eagle-500kg-bomb",
+    "nameZh": "飞鹰 500KG 炸弹",
+    "categoryZh": "飞鹰攻击",
+    "command": "urddd",
+    "iconPath": "/assets/icons/eagle-strikes-eagle-500kg-bomb.svg",
+    "nameEn": "Eagle 500kg Bomb",
+    "categoryEn": "Eagle Strikes"
+  },
+  {
+    "id": "eagle-strikes-eagle-airstrike",
+    "nameZh": "飞鹰空袭",
+    "categoryZh": "飞鹰攻击",
+    "command": "urdr",
+    "iconPath": "/assets/icons/eagle-strikes-eagle-airstrike.svg",
+    "nameEn": "Eagle Airstrike",
+    "categoryEn": "Eagle Strikes"
+  },
+  {
+    "id": "eagle-strikes-eagle-cluster-bomb",
+    "nameZh": "飞鹰集束炸弹",
+    "categoryZh": "飞鹰攻击",
+    "command": "urddr",
+    "iconPath": "/assets/icons/eagle-strikes-eagle-cluster-bomb.svg",
+    "nameEn": "Eagle Cluster Bomb",
+    "categoryEn": "Eagle Strikes"
+  },
+  {
+    "id": "eagle-strikes-eagle-napalm-airstrike",
+    "nameZh": "飞鹰凝固汽油弹空袭",
+    "categoryZh": "飞鹰攻击",
+    "command": "urdu",
+    "iconPath": "/assets/icons/eagle-strikes-eagle-napalm-airstrike.svg",
+    "nameEn": "Eagle Napalm Airstrike",
+    "categoryEn": "Eagle Strikes"
+  },
+  {
+    "id": "eagle-strikes-eagle-smoke-strike",
+    "nameZh": "飞鹰烟雾攻击",
+    "categoryZh": "飞鹰攻击",
+    "command": "urud",
+    "iconPath": "/assets/icons/eagle-strikes-eagle-smoke-strike.svg",
+    "nameEn": "Eagle Smoke Strike",
+    "categoryEn": "Eagle Strikes"
+  },
+  {
+    "id": "eagle-strikes-eagle-strafing-run",
+    "nameZh": "飞鹰机枪扫射",
+    "categoryZh": "飞鹰攻击",
+    "command": "urr",
+    "iconPath": "/assets/icons/eagle-strikes-eagle-strafing-run.svg",
+    "nameEn": "Eagle Strafing Run",
+    "categoryEn": "Eagle Strikes"
+  },
+  {
+    "id": "support-weapons-ac-8-autocannon",
+    "nameZh": "AC-8 机炮",
+    "categoryZh": "支援武器",
+    "command": "dlduur",
+    "iconPath": "/assets/icons/support-weapons-ac-8-autocannon.svg",
+    "nameEn": "AC-8 Autocannon",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-apw-1-anti-materiel-rifle",
+    "nameZh": "APW-1 反器材步枪",
+    "categoryZh": "支援武器",
+    "command": "dlrud",
+    "iconPath": "/assets/icons/support-weapons-apw-1-anti-materiel-rifle.svg",
+    "nameEn": "APW-1 Anti-Materiel Rifle",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-arc-3-arc-thrower",
+    "nameZh": "ARC-3 电弧发射器",
+    "categoryZh": "支援武器",
+    "command": "drdull",
+    "iconPath": "/assets/icons/support-weapons-arc-3-arc-thrower.svg",
+    "nameEn": "ARC-3 Arc Thrower",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-b-flam-80-cremator",
+    "nameZh": "B/FLAM-80 焚化器",
+    "categoryZh": "支援武器",
+    "command": "ddrduu",
+    "iconPath": "/assets/icons/support-weapons-b-flam-80-cremator.svg",
+    "nameEn": "B/FLAM-80 Cremator",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-b-md-c4-pack",
+    "nameZh": "B/MD C4 炸药包",
+    "categoryZh": "支援武器",
+    "command": "druuru",
+    "iconPath": "/assets/icons/support-weapons-b-md-c4-pack.svg",
+    "nameEn": "B/MD C4 Pack",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-cqc-1-one-true-flag",
+    "nameZh": "CQC-1 真理之旗",
+    "categoryZh": "支援武器",
+    "command": "dlrru",
+    "iconPath": "/assets/icons/support-weapons-cqc-1-one-true-flag.svg",
+    "nameEn": "CQC-1 One True Flag",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-cqc-20-breaching-hammer",
+    "nameZh": "CQC-20 破拆锤",
+    "categoryZh": "支援武器",
+    "command": "dlrlu",
+    "iconPath": "/assets/icons/support-weapons-cqc-20-breaching-hammer.svg",
+    "nameEn": "CQC-20 Breaching Hammer",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-cqc-9-defoliation-tool",
+    "nameZh": "CQC-9 清障工具",
+    "categoryZh": "支援武器",
+    "command": "dlrrd",
+    "iconPath": "/assets/icons/support-weapons-cqc-9-defoliation-tool.svg",
+    "nameEn": "CQC-9 Defoliation Tool",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-eat-17-expendable-anti-tank",
+    "nameZh": "EAT-17 消耗性反坦克武器",
+    "categoryZh": "支援武器",
+    "command": "ddlur",
+    "iconPath": "/assets/icons/support-weapons-eat-17-expendable-anti-tank.svg",
+    "nameEn": "EAT-17 Expendable Anti-Tank",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-eat-411-leveller",
+    "nameZh": "EAT-411 平地机",
+    "categoryZh": "支援武器",
+    "command": "ddlud",
+    "iconPath": "/assets/icons/support-weapons-eat-411-leveller.svg",
+    "nameEn": "EAT-411 Leveller",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-eat-700-expendable-napalm",
+    "nameZh": "EAT-700 消耗性凝固汽油弹",
+    "categoryZh": "支援武器",
+    "command": "ddlul",
+    "iconPath": "/assets/icons/support-weapons-eat-700-expendable-napalm.svg",
+    "nameEn": "EAT-700 Expendable Napalm",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-faf-14-spear",
+    "nameZh": "FAF-14 飞矛",
+    "categoryZh": "支援武器",
+    "command": "ddudd",
+    "iconPath": "/assets/icons/support-weapons-faf-14-spear.svg",
+    "nameEn": "FAF-14 Spear",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-flam-40-flamethrower",
+    "nameZh": "FLAM-40 火焰喷射器",
+    "categoryZh": "支援武器",
+    "command": "dludu",
+    "iconPath": "/assets/icons/support-weapons-flam-40-flamethrower.svg",
+    "nameEn": "FLAM-40 Flamethrower",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-gl-21-grenade-launcher",
+    "nameZh": "GL-21 榴弹发射器",
+    "categoryZh": "支援武器",
+    "command": "dluld",
+    "iconPath": "/assets/icons/support-weapons-gl-21-grenade-launcher.svg",
+    "nameEn": "GL-21 Grenade Launcher",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-gl-28-belt-fed-grenade-launcher",
+    "nameZh": "GL-28 供弹式榴弹发射器",
+    "categoryZh": "支援武器",
+    "command": "dluluu",
+    "iconPath": "/assets/icons/support-weapons-gl-28-belt-fed-grenade-launcher.svg",
+    "nameEn": "GL-28 Belt-Fed Grenade Launcher",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-gl-52-de-escalator",
+    "nameZh": "GL-52 降级器",
+    "categoryZh": "支援武器",
+    "command": "drulr",
+    "iconPath": "/assets/icons/support-weapons-gl-52-de-escalator.svg",
+    "nameEn": "GL-52 De-Escalator",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-gr-8-recoilless-rifle",
+    "nameZh": "GR-8 无后坐力炮",
+    "categoryZh": "支援武器",
+    "command": "dlrrl",
+    "iconPath": "/assets/icons/support-weapons-gr-8-recoilless-rifle.svg",
+    "nameEn": "GR-8 Recoilless Rifle",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-las-98-laser-cannon",
+    "nameZh": "LAS-98 激光大炮",
+    "categoryZh": "支援武器",
+    "command": "dldul",
+    "iconPath": "/assets/icons/support-weapons-las-98-laser-cannon.svg",
+    "nameEn": "LAS-98 Laser Cannon",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-las-99-quasar-cannon",
+    "nameZh": "LAS-99 类星体加农炮",
+    "categoryZh": "支援武器",
+    "command": "ddulr",
+    "iconPath": "/assets/icons/support-weapons-las-99-quasar-cannon.svg",
+    "nameEn": "LAS-99 Quasar Cannon",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-m-1000-maxigun",
+    "nameZh": "M-1000 重型机枪",
+    "categoryZh": "支援武器",
+    "command": "dlrduu",
+    "iconPath": "/assets/icons/support-weapons-m-1000-maxigun.svg",
+    "nameEn": "M-1000 Maxigun",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-m-105-stalwart",
+    "nameZh": "M-105 盟友",
+    "categoryZh": "支援武器",
+    "command": "dlduul",
+    "iconPath": "/assets/icons/support-weapons-m-105-stalwart.svg",
+    "nameEn": "M-105 Stalwart",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-mg-206-heavy-machine-gun",
+    "nameZh": "MG-206 重机枪",
+    "categoryZh": "支援武器",
+    "command": "dludd",
+    "iconPath": "/assets/icons/support-weapons-mg-206-heavy-machine-gun.svg",
+    "nameEn": "MG-206 Heavy Machine Gun",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-mg-43-machine-gun",
+    "nameZh": "MG-43 机枪",
+    "categoryZh": "支援武器",
+    "command": "dldur",
+    "iconPath": "/assets/icons/support-weapons-mg-43-machine-gun.svg",
+    "nameEn": "MG-43 Machine Gun",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-mgx-42-bullet-storm",
+    "nameZh": "MGX-42 弹雨",
+    "categoryZh": "支援武器",
+    "command": "dldrul",
+    "iconPath": "/assets/icons/support-weapons-mgx-42-bullet-storm.svg",
+    "nameEn": "MGX-42 Bullet Storm",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-mls-4x-commando",
+    "nameZh": "MLS-4X 突击兵",
+    "categoryZh": "支援武器",
+    "command": "dludr",
+    "iconPath": "/assets/icons/support-weapons-mls-4x-commando.svg",
+    "nameEn": "MLS-4X Commando",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-ms-11-solo-silo",
+    "nameZh": "MS-11 单兵导弹井",
+    "categoryZh": "支援武器",
+    "command": "durdd",
+    "iconPath": "/assets/icons/support-weapons-ms-11-solo-silo.svg",
+    "nameEn": "MS-11 Solo Silo",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-plas-45-epoch",
+    "nameZh": "PLAS-45 纪元",
+    "categoryZh": "支援武器",
+    "command": "dlulr",
+    "iconPath": "/assets/icons/support-weapons-plas-45-epoch.svg",
+    "nameEn": "PLAS-45 Epoch",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-rl-77-airburst-rocket-launcher",
+    "nameZh": "RL-77 空爆火箭发射器",
+    "categoryZh": "支援武器",
+    "command": "duulr",
+    "iconPath": "/assets/icons/support-weapons-rl-77-airburst-rocket-launcher.svg",
+    "nameEn": "RL-77 Airburst Rocket Launcher",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-rs-422-railgun",
+    "nameZh": "RS-422 磁轨炮",
+    "categoryZh": "支援武器",
+    "command": "drdulr",
+    "iconPath": "/assets/icons/support-weapons-rs-422-railgun.svg",
+    "nameEn": "RS-422 Railgun",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-s-11-speargun",
+    "nameZh": "S-11 长矛枪",
+    "categoryZh": "支援武器",
+    "command": "drdlur",
+    "iconPath": "/assets/icons/support-weapons-s-11-speargun.svg",
+    "nameEn": "S-11 Speargun",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-sta-x3-w-a-s-p-launcher",
+    "nameZh": "StA-X3 W.A.S.P. 发射器",
+    "categoryZh": "支援武器",
+    "command": "ddudr",
+    "iconPath": "/assets/icons/support-weapons-sta-x3-w-a-s-p-launcher.svg",
+    "nameEn": "StA-X3 W.A.S.P. Launcher",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "support-weapons-tx-41-sterilizer",
+    "nameZh": "TX-41 灭菌器",
+    "categoryZh": "支援武器",
+    "command": "dludl",
+    "iconPath": "/assets/icons/support-weapons-tx-41-sterilizer.svg",
+    "nameEn": "TX-41 Sterilizer",
+    "categoryEn": "Support Weapons"
+  },
+  {
+    "id": "backpacks-ax-ar-23-guard-dog",
+    "nameZh": "AX/AR-23 护卫犬",
+    "categoryZh": "背包",
+    "command": "dulurd",
+    "iconPath": "/assets/icons/backpacks-ax-ar-23-guard-dog.svg",
+    "nameEn": "AX/AR-23 Guard Dog",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-ax-arc-3-k-9",
+    "nameZh": "AX/ARC-3 K-9 “九号”",
+    "categoryZh": "背包",
+    "command": "dulurl",
+    "iconPath": "/assets/icons/backpacks-ax-arc-3-k-9.svg",
+    "nameEn": "AX/ARC-3 K-9",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-ax-flam-75-hot-dog",
+    "nameZh": "AX/FLAM-75 “热狗”",
+    "categoryZh": "背包",
+    "command": "dulull",
+    "iconPath": "/assets/icons/backpacks-ax-flam-75-hot-dog.svg",
+    "nameEn": "AX/FLAM-75 Hot Dog",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-ax-las-5-rover",
+    "nameZh": "AX/LAS-5 护卫犬漫游车",
+    "categoryZh": "背包",
+    "command": "dulurr",
+    "iconPath": "/assets/icons/backpacks-ax-las-5-rover.svg",
+    "nameEn": "AX/LAS-5 Rover",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-ax-tx-13-dog-breath",
+    "nameZh": "AX/TX-13 “护卫犬”腐息",
+    "categoryZh": "背包",
+    "command": "duluru",
+    "iconPath": "/assets/icons/backpacks-ax-tx-13-dog-breath.svg",
+    "nameEn": "AX/TX-13 Dog Breath",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-b-1-supply-pack",
+    "nameZh": "B-1 补给背包",
+    "categoryZh": "背包",
+    "command": "dlduud",
+    "iconPath": "/assets/icons/backpacks-b-1-supply-pack.svg",
+    "nameEn": "B-1 Supply Pack",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-b-100-portable-hellbomb",
+    "nameZh": "B-100 便携式地狱火炸弹",
+    "categoryZh": "背包",
+    "command": "druuu",
+    "iconPath": "/assets/icons/backpacks-b-100-portable-hellbomb.svg",
+    "nameEn": "B-100 Portable Hellbomb",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-lift-182-warp-pack",
+    "nameZh": "LIFT-182 跃迁背包",
+    "categoryZh": "背包",
+    "command": "dlrdlr",
+    "iconPath": "/assets/icons/backpacks-lift-182-warp-pack.svg",
+    "nameEn": "LIFT-182 Warp Pack",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-lift-850-jump-pack",
+    "nameZh": "LIFT-850 喷射背包",
+    "categoryZh": "背包",
+    "command": "duudu",
+    "iconPath": "/assets/icons/backpacks-lift-850-jump-pack.svg",
+    "nameEn": "LIFT-850 Jump Pack",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-lift-860-hover-pack",
+    "nameZh": "LIFT-860 悬浮背包",
+    "categoryZh": "背包",
+    "command": "duudlr",
+    "iconPath": "/assets/icons/backpacks-lift-860-hover-pack.svg",
+    "nameEn": "LIFT-860 Hover Pack",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-sh-20-ballistic-shield-backpack",
+    "nameZh": "SH-20 防弹盾背包",
+    "categoryZh": "背包",
+    "command": "dlddul",
+    "iconPath": "/assets/icons/backpacks-sh-20-ballistic-shield-backpack.svg",
+    "nameEn": "SH-20 Ballistic Shield Backpack",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-sh-32-shield-generator-pack",
+    "nameZh": "SH-32 防护罩生成包",
+    "categoryZh": "背包",
+    "command": "dulrlr",
+    "iconPath": "/assets/icons/backpacks-sh-32-shield-generator-pack.svg",
+    "nameEn": "SH-32 Shield Generator Pack",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "backpacks-sh-51-directional-shield",
+    "nameZh": "SH-51 定向盾",
+    "categoryZh": "背包",
+    "command": "dulruu",
+    "iconPath": "/assets/icons/backpacks-sh-51-directional-shield.svg",
+    "nameEn": "SH-51 Directional Shield",
+    "categoryEn": "Backpacks"
+  },
+  {
+    "id": "emplacements-e-at-12-anti-tank-emplacement",
+    "nameZh": "E/AT-12 反坦克炮台",
+    "categoryZh": "部署装置",
+    "command": "dulrrr",
+    "iconPath": "/assets/icons/emplacements-e-at-12-anti-tank-emplacement.svg",
+    "nameEn": "E/AT-12 Anti-Tank Emplacement",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "emplacements-e-gl-21-grenadier-battlement",
+    "nameZh": "E/GL-21 掷弹兵防卫墙",
+    "categoryZh": "部署装置",
+    "command": "drdlr",
+    "iconPath": "/assets/icons/emplacements-e-gl-21-grenadier-battlement.svg",
+    "nameEn": "E/GL-21 Grenadier Battlement",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "emplacements-e-mg-101-hmg-emplacement",
+    "nameZh": "E/MG-101 重机枪部署支架",
+    "categoryZh": "部署装置",
+    "command": "dulrrl",
+    "iconPath": "/assets/icons/emplacements-e-mg-101-hmg-emplacement.svg",
+    "nameEn": "E/MG-101 HMG Emplacement",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "emplacements-fx-12-shield-generator-relay",
+    "nameZh": "FX-12 防护罩生成中继器",
+    "categoryZh": "部署装置",
+    "command": "ddlrlr",
+    "iconPath": "/assets/icons/emplacements-fx-12-shield-generator-relay.svg",
+    "nameEn": "FX-12 Shield Generator Relay",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "emplacements-md-17-anti-tank-mines",
+    "nameZh": "MD-17 反坦克地雷",
+    "categoryZh": "部署装置",
+    "command": "dluu",
+    "iconPath": "/assets/icons/emplacements-md-17-anti-tank-mines.svg",
+    "nameEn": "MD-17 Anti-Tank Mines",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "emplacements-md-6-anti-personnel-minefield",
+    "nameZh": "MD-6 反步兵雷区",
+    "categoryZh": "部署装置",
+    "command": "dlur",
+    "iconPath": "/assets/icons/emplacements-md-6-anti-personnel-minefield.svg",
+    "nameEn": "MD-6 Anti-Personnel Minefield",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "emplacements-md-8-gas-mines",
+    "nameZh": "MD-8 毒气地雷",
+    "categoryZh": "部署装置",
+    "command": "dllr",
+    "iconPath": "/assets/icons/emplacements-md-8-gas-mines.svg",
+    "nameEn": "MD-8 Gas Mines",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "emplacements-md-i4-incendiary-mines",
+    "nameZh": "MD-14 燃烧地雷",
+    "categoryZh": "部署装置",
+    "command": "dlld",
+    "iconPath": "/assets/icons/emplacements-md-i4-incendiary-mines.svg",
+    "nameEn": "MD-I4 Incendiary Mines",
+    "categoryEn": "Emplacements"
+  },
+  {
+    "id": "sentries-a-ac-8-autocannon-sentry",
+    "nameZh": "A/AC-8 自动哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durulu",
+    "iconPath": "/assets/icons/sentries-a-ac-8-autocannon-sentry.svg",
+    "nameEn": "A/AC-8 Autocannon Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-arc-3-tesla-tower",
+    "nameZh": "A/ARC-3 特斯拉塔",
+    "categoryZh": "哨戒炮",
+    "command": "durulr",
+    "iconPath": "/assets/icons/sentries-a-arc-3-tesla-tower.svg",
+    "nameEn": "A/ARC-3 Tesla Tower",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-flam-40-flame-sentry",
+    "nameZh": "A/FLAM-40 火焰喷射哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durduu",
+    "iconPath": "/assets/icons/sentries-a-flam-40-flame-sentry.svg",
+    "nameEn": "A/FLAM-40 Flame Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-g-16-gatling-sentry",
+    "nameZh": "A/G-16 加特林哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durl",
+    "iconPath": "/assets/icons/sentries-a-g-16-gatling-sentry.svg",
+    "nameEn": "A/G-16 Gatling Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-gm-17-gas-mortar-sentry",
+    "nameZh": "A/GM-17 毒气迫击哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durdl",
+    "iconPath": "/assets/icons/sentries-a-gm-17-gas-mortar-sentry.svg",
+    "nameEn": "A/GM-17 Gas Mortar Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-las-98-laser-sentry",
+    "nameZh": "A/LAS-98 激光哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durdur",
+    "iconPath": "/assets/icons/sentries-a-las-98-laser-sentry.svg",
+    "nameEn": "A/LAS-98 Laser Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-m-12-mortar-sentry",
+    "nameZh": "A/M-12 迫击哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durrd",
+    "iconPath": "/assets/icons/sentries-a-m-12-mortar-sentry.svg",
+    "nameEn": "A/M-12 Mortar Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-m-23-ems-mortar-sentry",
+    "nameZh": "A/M-23 电磁冲击波迫击哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durdr",
+    "iconPath": "/assets/icons/sentries-a-m-23-ems-mortar-sentry.svg",
+    "nameEn": "A/M-23 EMS Mortar Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-mg-43-machine-gun-sentry",
+    "nameZh": "A/MG-43 哨戒机枪",
+    "categoryZh": "哨戒炮",
+    "command": "durru",
+    "iconPath": "/assets/icons/sentries-a-mg-43-machine-gun-sentry.svg",
+    "nameEn": "A/MG-43 Machine Gun Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "sentries-a-mls-4x-rocket-sentry",
+    "nameZh": "A/MLS-4X 火箭哨戒炮",
+    "categoryZh": "哨戒炮",
+    "command": "durrl",
+    "iconPath": "/assets/icons/sentries-a-mls-4x-rocket-sentry.svg",
+    "nameEn": "A/MLS-4X Rocket Sentry",
+    "categoryEn": "Sentries"
+  },
+  {
+    "id": "vehicles-exo-45-patriot-exosuit",
+    "nameZh": "EXO-45 爱国者外骨骼机甲",
+    "categoryZh": "载具",
+    "command": "ldruldd",
+    "iconPath": "/assets/icons/vehicles-exo-45-patriot-exosuit.svg",
+    "nameEn": "EXO-45 Patriot Exosuit",
+    "categoryEn": "Vehicles"
+  },
+  {
+    "id": "vehicles-exo-49-emancipator-exosuit",
+    "nameZh": "EXO-49 解放者外骨骼机甲",
+    "categoryZh": "载具",
+    "command": "ldruldu",
+    "iconPath": "/assets/icons/vehicles-exo-49-emancipator-exosuit.svg",
+    "nameEn": "EXO-49 Emancipator Exosuit",
+    "categoryEn": "Vehicles"
+  },
+  {
+    "id": "vehicles-exo-51-lumberer-exosuit",
+    "nameZh": "EXO-51 伐木工外骨骼机甲",
+    "categoryZh": "载具",
+    "command": "ldrurlu",
+    "iconPath": "/assets/icons/vehicles-exo-51-lumberer-exosuit.svg",
+    "nameEn": "EXO-51 Lumberer Exosuit",
+    "categoryEn": "Vehicles"
+  },
+  {
+    "id": "vehicles-exo-55-breakthrough-exosuit",
+    "nameZh": "EXO-55 突破者外骨骼机甲",
+    "categoryZh": "载具",
+    "command": "ldrlrdu",
+    "iconPath": "/assets/icons/vehicles-exo-55-breakthrough-exosuit.svg",
+    "nameEn": "EXO-55 Breakthrough Exosuit",
+    "categoryEn": "Vehicles"
+  },
+  {
+    "id": "vehicles-m-102-fast-recon-vehicle",
+    "nameZh": "M-102 快速侦察载具",
+    "categoryZh": "载具",
+    "command": "ldrdrdu",
+    "iconPath": "/assets/icons/vehicles-m-102-fast-recon-vehicle.svg",
+    "nameEn": "M-102 Fast Recon Vehicle",
+    "categoryEn": "Vehicles"
+  },
+  {
+    "id": "vehicles-td-220-bastion-mk-xvi",
+    "nameZh": "TD-220 堡垒 MK XVI",
+    "categoryZh": "载具",
+    "command": "ldrdldudu",
+    "iconPath": "/assets/icons/vehicles-td-220-bastion-mk-xvi.svg",
+    "nameEn": "TD-220 Bastion MK XVI",
+    "categoryEn": "Vehicles"
+  },
+  {
+    "id": "ship-call-in-super-destroyer",
+    "nameZh": "呼叫超级驱逐舰",
+    "categoryZh": "舰船支援",
+    "command": "uuddlrlr",
+    "iconPath": "/assets/icons/ship-call-in-super-destroyer.svg",
+    "nameEn": "Call In Super Destroyer",
+    "categoryEn": "Ship"
+  },
+  {
+    "id": "ship-eagle-rearm",
+    "nameZh": "飞鹰补弹",
+    "categoryZh": "舰船支援",
+    "command": "uulur",
+    "iconPath": "/assets/icons/ship-eagle-rearm.svg",
+    "nameEn": "Eagle Rearm",
+    "categoryEn": "Ship"
+  },
+  {
+    "id": "ship-reinforce",
+    "nameZh": "增援",
+    "categoryZh": "舰船支援",
+    "command": "udrlu",
+    "iconPath": "/assets/icons/ship-reinforce.svg",
+    "nameEn": "Reinforce",
+    "categoryEn": "Ship"
+  },
+  {
+    "id": "ship-resupply",
+    "nameZh": "补给",
+    "categoryZh": "舰船支援",
+    "command": "ddur",
+    "iconPath": "/assets/icons/ship-resupply.svg",
+    "nameEn": "Resupply",
+    "categoryEn": "Ship"
+  },
+  {
+    "id": "ship-sos-beacon",
+    "nameZh": "求救信标",
+    "categoryZh": "舰船支援",
+    "command": "udru",
+    "iconPath": "/assets/icons/ship-sos-beacon.svg",
+    "nameEn": "SoS Beacon",
+    "categoryEn": "Ship"
+  },
+  {
+    "id": "objective-cargo-container",
+    "nameZh": "货物集装箱",
+    "categoryZh": "任务目标",
+    "command": "uuddrd",
+    "iconPath": "/assets/icons/objective-cargo-container.svg",
+    "nameEn": "Cargo Container",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-dark-fluid-vessel",
+    "nameZh": "暗流体容器",
+    "categoryZh": "任务目标",
+    "command": "ulrduu",
+    "iconPath": "/assets/icons/objective-dark-fluid-vessel.svg",
+    "nameEn": "Dark Fluid Vessel",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-hive-breaker-drill",
+    "nameZh": "虫巢破拆钻机",
+    "categoryZh": "任务目标",
+    "command": "ludrdd",
+    "iconPath": "/assets/icons/objective-hive-breaker-drill.svg",
+    "nameEn": "Hive Breaker Drill",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-nux-223-hellbomb",
+    "nameZh": "NUX-223 地狱火炸弹",
+    "categoryZh": "任务目标",
+    "command": "duldurdu",
+    "iconPath": "/assets/icons/objective-nux-223-hellbomb.svg",
+    "nameEn": "NUX-223 Hellbomb",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-prospecting-drill",
+    "nameZh": "勘探钻机",
+    "categoryZh": "任务目标",
+    "command": "ddlrdd",
+    "iconPath": "/assets/icons/objective-prospecting-drill.svg",
+    "nameEn": "Prospecting Drill",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-reinforcement-pods",
+    "nameZh": "增援舱",
+    "categoryZh": "任务目标",
+    "command": "lruuu",
+    "iconPath": "/assets/icons/objective-reinforcement-pods.svg",
+    "nameEn": "Reinforcement Pods",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-seaf-artillery",
+    "nameZh": "SEAF火炮",
+    "categoryZh": "任务目标",
+    "command": "ruud",
+    "iconPath": "/assets/icons/objective-seaf-artillery.svg",
+    "nameEn": "SEAF Artillery",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-seismic-probe",
+    "nameZh": "地震探针",
+    "categoryZh": "任务目标",
+    "command": "uulrdd",
+    "iconPath": "/assets/icons/objective-seismic-probe.svg",
+    "nameEn": "Seismic Probe",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-sssd-delivery",
+    "nameZh": "运送 SSSD",
+    "categoryZh": "任务目标",
+    "command": "ddddduu",
+    "iconPath": "/assets/icons/objective-sssd-delivery.svg",
+    "nameEn": "SSSD Delivery",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-super-earth-flag",
+    "nameZh": "超级地球旗帜",
+    "categoryZh": "任务目标",
+    "command": "dudu",
+    "iconPath": "/assets/icons/objective-super-earth-flag.svg",
+    "nameEn": "Super Earth Flag",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-tectonic-drill",
+    "nameZh": "构造钻机",
+    "categoryZh": "任务目标",
+    "command": "ududud",
+    "iconPath": "/assets/icons/objective-tectonic-drill.svg",
+    "nameEn": "Tectonic Drill",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "objective-upload-data",
+    "nameZh": "上传数据",
+    "categoryZh": "任务目标",
+    "command": "lruuu",
+    "iconPath": "/assets/icons/objective-upload-data.svg",
+    "nameEn": "Upload Data",
+    "categoryEn": "Objective"
+  },
+  {
+    "id": "other-orbital-illumination-flare",
+    "nameZh": "轨道照明弹",
+    "categoryZh": "其他",
+    "command": "rrll",
+    "iconPath": "/assets/icons/other-orbital-illumination-flare.svg",
+    "nameEn": "Orbital Illumination Flare",
+    "categoryEn": "Other"
+  }
+]
