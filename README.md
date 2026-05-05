@@ -5,7 +5,7 @@
 ## 主要功能
 
 - 包含目前版本所有战略配备
-- 包含 wiki 中的 `Current Stratagems` 与 `Mission Stratagems`（详情见https://helldivers.wiki.gg/wiki/Stratagems）
+- 包含 wiki 中的 `Current Stratagems` 与 `Mission Stratagems`
 - 支持自由绑定按键
 - 支持历史平均耗时与 KPS 统计
 - 可重复进行训练
@@ -17,7 +17,7 @@
 
 同步脚本位置：
 
-- [scripts/sync-stratagems-from-wiki.mjs](D:/Codex/HelldiverPractice/scripts/sync-stratagems-from-wiki.mjs)
+- [scripts/sync-stratagems-from-wiki.mjs](HelldiverPractice/scripts/sync-stratagems-from-wiki.mjs)
 
 脚本会自动完成这些事情：
 
@@ -50,7 +50,7 @@ npm run dev
 ## 资源位置
 
 - 战略配备数据：
-  - [public/data/stratagems.json](D:/Codex/HelldiverPractice/public/data/stratagems.json)
+  - [public/data/stratagems.json](HelldiverPractice/public/data/stratagems.json)
 - 图标资源：
   - `public/assets/icons`
 - 音效资源：
