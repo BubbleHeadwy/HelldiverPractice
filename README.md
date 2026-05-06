@@ -2,35 +2,14 @@
 
 《绝地潜兵 2》战略配备训练器，使用 `Vue 3 + TypeScript + Vite` 构建前端，并预留 `Tauri` 用于 Windows 轻量桌面打包。
 
-## 当前范围
+## 主要功能
 
-- 只包含正式战略配备
+- 包含目前版本所有战略配备
 - 包含 wiki 中的 `Current Stratagems` 与 `Mission Stratagems`
-- 不包含试用与未上线战略配备
-- 只支持键盘输入训练
-- 支持本地图标、音效、历史平均耗时与 KPS 统计
-- 支持键位重绑定与本地持久化
+- 支持自由绑定按键
+- 支持历史平均耗时与 KPS 统计
+- 可重复进行训练
 
-## 启动开发版
-
-```bash
-npm install
-npm run dev
-```
-
-默认开发地址为 `http://localhost:5173`。
-
-## 构建前端
-
-```bash
-npm run build
-```
-
-## 预览生产构建
-
-```bash
-npm run preview
-```
 
 ## 和 Wiki 同步战略配备
 
@@ -38,7 +17,7 @@ npm run preview
 
 同步脚本位置：
 
-- [scripts/sync-stratagems-from-wiki.mjs](D:/Codex/HelldiverPractice/scripts/sync-stratagems-from-wiki.mjs)
+- [scripts/sync-stratagems-from-wiki.mjs](HelldiverPractice/scripts/sync-stratagems-from-wiki.mjs)
 
 脚本会自动完成这些事情：
 
@@ -71,24 +50,17 @@ npm run dev
 ## 资源位置
 
 - 战略配备数据：
-  - [public/data/stratagems.json](D:/Codex/HelldiverPractice/public/data/stratagems.json)
+  - [public/data/stratagems.json](HelldiverPractice/public/data/stratagems.json)
 - 图标资源：
   - `public/assets/icons`
 - 音效资源：
   - `public/assets/audio`
 
-## Tauri 桌面壳
-
-仓库已包含 `src-tauri/` 配置，但如果本机未安装 Rust 与 MSVC Build Tools，将无法执行桌面构建。
-
-开发模式：
+## 启动开发版
 
 ```bash
-npm run tauri:dev
+npm install
+npm run dev
 ```
 
-Windows 打包：
-
-```bash
-npm run tauri:build
-```
+默认开发地址为 `http://localhost:5173`。
