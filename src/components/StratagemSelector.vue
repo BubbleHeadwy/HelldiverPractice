@@ -18,7 +18,7 @@ const allEnabled = (items: Stratagem[], enabledIds: Set<string>) =>
   items.length > 0 && items.every((item) => enabledIds.has(item.id))
 
 const heading = zh('\\u6218\\u7565\\u7ec8\\u7aef')
-const description = zh('\\u6309\\u6e38\\u620f\\u5185\\u6218\\u5907\\u903b\\u8f91\\u6574\\u7406\\u5f53\\u524d\\u6b63\\u5f0f\\u6218\\u7565\\u914d\\u5907\\u3002\\u52fe\\u9009\\u6761\\u76ee\\u540e\\u6309\\u5f00\\u59cb\\u952e\\u5373\\u53ef\\u8fdb\\u5165\\u8bad\\u7ec3\\u3002')
+const description = zh('\\u52fe\\u9009\\u6761\\u76ee\\u540e\\u6309\\u5f00\\u59cb\\u952e\\u5373\\u53ef\\u8fdb\\u5165\\u8bad\\u7ec3\\u3002')
 const toggleAll = zh('\\u5168\\u9009')
 const toggleNone = zh('\\u5168\\u4e0d\\u9009')
 const averagePrefix = zh('\\u00b7 \\u5e73\\u5747')
